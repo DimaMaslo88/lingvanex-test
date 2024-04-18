@@ -6,18 +6,27 @@
 }
 
 .titleName{
-    /*display: flex;*/
     font-family: Arial;
-    /*justify-content: center;*/
     color:#000000;
     font-size: 70px;
     font-weight: 900;
   margin-top: 50px;
 
 }
+.serviceContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    font-family: Arial;
+    color:#000000;
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 100px;
+}
+
 .p-description,.b-description {
-    /*display: flex;*/
-    /*justify-content: center;*/
     font-family: Manrope;
     font-weight: 400;
     font-size: 18px;
@@ -36,5 +45,8 @@
     border-radius: 12px;
     padding: 20px 24px 20px 24px;
     gap:10px
+}
+.btn:hover{
+    cursor: pointer;
 }
 
